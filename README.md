@@ -9,7 +9,7 @@ The repository is organized as follows:
 + `data/` contains the datasets used in the paper;
 + `parms_setting.py` contains hyperparameters adopted by GraphCF;
 + `data_preprocess.py` is the preprocess of data before training;
-+ `layer.py` contains mix-hop GNN layers and contrastive GNN layers;
++ `gnn_layer.py` contains mix-hop GNN layers and contrastive GNN layers;
 + `instantiation.py` instantiates the GraphCF;
 + `train.py` contains the training and testing code on datasets;
 + `main.py` contains entry to GraphCF (e.g., normalize...);
